@@ -1,24 +1,23 @@
-
 const BookkeepingSection = () => {
   return (
-    <div className="flex flex-col items-center text-center px-6 py-12 bg-white">
+    <div className="flex flex-col items-center px-6 py-12 text-center bg-white">
       {/* Logo Section */}
       <div className="mb-6">
         {/* Replace 'logo-placeholder.png' with your logo's file path */}
         <img
-          src="../../public/images/logo.svg"
+          src="/images/logo.svg"
           alt="Logo"
-          className="w-12 h-12 object-contain"
+          className="object-contain w-12 h-12"
         />
       </div>
 
       {/* Heading */}
-      <h1 className="text-3xl font-bold leading-tight mb-4">
+      <h1 className="mb-4 text-3xl font-bold leading-tight">
         Small business bookkeeping year-round
       </h1>
 
       {/* Description */}
-      <p className="text-lg text-gray-600 max-w-2xl leading-relaxed">
+      <p className="max-w-2xl text-lg leading-relaxed text-gray-600">
         Real humans. Perfect books. That’s what you get when Bench is on your
         books. Every month, your team of bookkeeping experts review your
         transactions and prepare financial statements. Here’s what else you can
