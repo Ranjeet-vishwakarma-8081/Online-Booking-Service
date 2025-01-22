@@ -1,21 +1,21 @@
 import PropTypes from "prop-types";
 const ExpertSupport = ({ image, heading, paragraph }) => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center px-6 py-12 bg-white space-y-8 lg:space-y-0 lg:space-x-12">
+    <div className="flex flex-col items-center justify-center px-6 py-12 space-y-8 bg-white lg:flex-row lg:space-y-0 lg:space-x-12">
       {/* Left Section: Chat UI */}
       <div className="relative max-w-lg">
         <img
           src={image}
-          alt="Person 2"
-          className="w-full h-full object-cover"
+          alt="image "
+          className="object-cover w-full h-full"
         />
       </div>
 
       {/* Right Section: Content */}
-      <div className="text-center lg:text-left max-w-md">
-        <h1 className="text-2xl font-bold text-gray-900 mb-4">{heading}</h1>
-        <p className="text-gray-600 text-base mb-6">{paragraph}</p>
-        <button className="bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg">
+      <div className="max-w-md text-center lg:text-left">
+        <h1 className="mb-4 text-2xl font-bold text-gray-900">{heading}</h1>
+        <p className="mb-6 text-base text-gray-600">{paragraph}</p>
+        <button className="px-6 py-3 font-semibold text-white bg-blue-700 rounded-lg">
           LEARN MORE
         </button>
       </div>
